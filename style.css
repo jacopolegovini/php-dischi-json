@@ -1,0 +1,13 @@
+header {
+    height: 10vh;
+    background-color: #0C161D;
+}
+
+main {
+    height: 90vh;
+    background-color: #1D2D3C;
+}
+
+.card {
+    width: 500px;
+}
