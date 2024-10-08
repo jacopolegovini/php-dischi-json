@@ -1,9 +1,12 @@
-<?php 
-// require_once __DIR__ . "/./dischi/dischi.json"; 
+<?php
+// require_once __DIR__ . "/./dischi/dischi.json";
 
-file_get_contents($dischi ./dischi/dischi.json);
-json_decode(dischi.json);
+$dischi = file_get_contents("./dischi/dischi.json");
+$dischi = json_decode($dischi);
 
+// header("Content-Type: application/json");
+
+var_dump($dischi);
 
 ?>
 
@@ -17,7 +20,7 @@ json_decode(dischi.json);
 </head>
 
 <body>
-    test
+    <h1></h1>
 </body>
 
 </html>
