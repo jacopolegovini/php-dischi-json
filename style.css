@@ -10,4 +10,13 @@ main {
 
 .card {
     width: 500px;
+    background-color: #10202F;
+}
+
+.card * {
+    color: white;
+}
+
+.card-year {
+    font-weight: bold;
 }
