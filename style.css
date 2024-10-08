@@ -4,13 +4,21 @@ header {
 }
 
 main {
-    height: 90vh;
     background-color: #1D2D3C;
+    padding: 50px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 500px;
+    width: calc((100% / 3) - 100px);
     background-color: #10202F;
+    padding: 15px 25px;
 }
 
 .card * {
